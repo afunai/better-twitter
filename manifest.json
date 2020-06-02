@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+   
+    "name": "betterTwitter",
+    "version": "0.1.0",
+    "description": "make the annoying sidebar less visible",
+   
+    "content_scripts": [{
+      "css": ["index.css"],
+      "matches": ["https://twitter.com/*"]
+    }]
+   
+  }
