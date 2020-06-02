@@ -3,6 +3,12 @@ header[role=banner] {
     max-width: 100px;
     zoom:70%;
 }
+nav[role=navigation] a div[dir=auto] {
+    display: none;
+}
+div[data-testid=AppTabBar_More_Menu] div[dir=auto] {
+    display: none;
+}
 
 div[data-testid=primaryColumn] {
     max-width: 900px;
