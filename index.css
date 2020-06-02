@@ -1,0 +1,12 @@
+header[role=banner] {
+    max-width: 100px;
+    zoom:70%;
+}
+
+div[data-testid=primaryColumn] {
+    max-width: 900px;
+}
+
+div[data-testid=sidebarColumn] {
+    zoom: 50%;
+}
