@@ -1,4 +1,5 @@
 header[role=banner] {
+    display: block;
     max-width: 100px;
     zoom:70%;
 }
