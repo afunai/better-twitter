@@ -1,5 +1,6 @@
 header[role=banner] {
     zoom:70%;
+    max-width: 300px;
 }
 
 header[role=banner] > div {
