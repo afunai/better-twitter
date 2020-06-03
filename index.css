@@ -2,6 +2,22 @@ header[role=banner] {
     zoom:70%;
 }
 
+header[role=banner] > div {
+    width: 0px;
+}
+
+header[role=banner] > div > div {
+    left: 0px;
+}
+
+a[href=\/compose\/tweet][role=button] {
+    max-width: 180px;
+}
+
+div[data-testid=SideNav_AccountSwitcher_Button] {
+    max-width: 180px;
+}
+
 div[data-testid=primaryColumn] {
     max-width: 900px;
 }
